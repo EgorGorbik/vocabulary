@@ -1,0 +1,73 @@
+.table {
+  border-collapse: collapse;
+  height: 100%;
+  .word {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    font-size: 20px;
+    height: 100%;
+    word-wrap: break-word;
+  }
+  text-align: center;
+  top: 250px;
+  margin-top: 50px;
+}
+
+.main {
+  position: relative;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  padding: 0!important;
+  margin: 0!important;
+  height: 50px;
+}
+
+.add_btn{
+  position: fixed;
+  max-width: inherit;
+  top: 0;
+}
+
+.add_form {
+  margin-top: 100px;
+}
+
+.change_btn,
+.delete_btn {
+  height: 20px;
+  cursor: pointer;
+}
+
+.img_container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_cell {
+  width: 5%!important;
+  cursor: pointer;
+}
+
+.btn_cell:hover {
+  background-color: #61dafb;
+}
+
+tr:hover {
+  background-color: white!important;
+}
+
+td {
+  border-break: none;
+}
+
+
+
+
+
